@@ -48,7 +48,7 @@ CLASS ZCL_RESTFUL IMPLEMENTATION.
     IF lv_data IS BOUND.
       ASSIGN lv_data->* TO FIELD-SYMBOL(<fs_str>).
     ELSE.
-      ls_return-message = '结构生成异常'.
+      ls_return-message = '对象构造异常'.
       me->return_error( ls_return ).
       RETURN.
     ENDIF.
