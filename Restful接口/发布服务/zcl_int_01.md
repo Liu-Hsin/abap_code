@@ -30,12 +30,12 @@ private section.
 
   types:
     BEGIN OF ty_data,
-      erdat      TYPE ztsd301-erdat     , "订单日期
-      matnr      TYPE ztsd301-matnr     , "整车编码
-      vin        TYPE ztsd301-vin       , "VIN码
-      netpr      TYPE ztsd301-netpr     , "单价（含税）
-      bukrs      TYPE ztsd301-bukrs     ,
-      kunag      TYPE ztsd301-kunag     , "客户代码 .
+      erdat      TYPE erdat     , "订单日期
+      matnr      TYPE matnr     , "整车编码
+      vin        TYPE zvin      , "VIN码
+      netpr      TYPE netpr     , "单价（含税）
+      bukrs      TYPE bukrs     ,
+      kunag      TYPE kunag     , "客户代码 .
     END OF ty_data .
   types:
     tt_data TYPE STANDARD TABLE OF ty_data .
