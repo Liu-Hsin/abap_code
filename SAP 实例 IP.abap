@@ -1,4 +1,3 @@
-```ABAP
   TYPES: BEGIN OF kernel_version,
            key(21)  TYPE c,
            data(69) TYPE c,
@@ -15,4 +14,3 @@
   ip_address = gw_kernel_version-data.
 
   WRITE ip_address.
-```
