@@ -20,7 +20,7 @@ FUNCTION zfm_conversion_date_format.
     append lt_days.clear lt_days.
   END-OF-DEFINITION.
   CHECK input IS NOT INITIAL.
-  lv_year = input+0(4).
+  lv_year = input(4).
   lv_month = input+4(2).
   lv_day = input+6(2).
   SELECT SINGLE * FROM t247 INTO ls_t247  WHERE spras = 'EN' AND mnr = lv_month.
