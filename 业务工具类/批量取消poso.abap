@@ -1,12 +1,12 @@
 *&*********************************************************************
 *& program name:              [ZMME366]
 *& module name :              [MM]
-*& apply author:              [ZhouZL]
+*& apply author:              []
 *& author:                    [LiuX]
-*& started on:                [23.03.2026 16:11:10]
-*& transaction:               [ZMME366]
+*& started on:                []
+*& transaction:               []
 *& program type:              [REPORT ]
-*& transfer requests:         [S4DK904765]
+*& transfer requests:         []
 *& program description :      [批量取消poso]
 *&*&*******************************************************************
 *& revision log                                                       *
