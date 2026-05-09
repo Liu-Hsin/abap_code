@@ -82,6 +82,7 @@ abap_code/
 │   ├── abapGit.abap         # abapGit适配代码（版本管理）
 │   ├── abap_clear.md        # ABAP代码清理指引
 │   ├── zbdc.abap            # BDC批处理程序
+│   ├── ABAP_Versions_Explore(AVE).abap  # ABAP版本对比检查工具
 │   └── 分类说明.md
 ├── 基础工具类/              # 通用底层工具，覆盖加密、格式转换等
 │   ├── Rsa加密.abap         # RSA加密实现
